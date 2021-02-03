@@ -1,0 +1,204 @@
+
+
+body {
+    background-color: #070707;
+    color: #e2dad2;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.Glavmeny img {
+    width: 26px;
+    margin-right: 5px;
+}
+.slideOne {
+    height: auto;
+    overflow: hidden;
+
+}
+.carousel-caption {
+    top: 41%;
+    bottom: auto;
+    border: 6px solid #ffffff;
+    text-align: justify;
+}
+.appealSlide {
+    padding: 4px 8px;
+}
+.appealSlide h3 {
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 1.45;
+    text-align: center;
+}
+.appealSlide p {
+    font-size: 20px;
+    padding: 0 8px;
+}
+.carousel-item img {
+    width: 100%;
+}
+.otherFonTop {
+    display: none;
+    height: auto;
+    max-height: 610px;
+    overflow: hidden;
+}
+
+@media (max-width: 1129px) {
+    .carousel-caption {
+        top: 28%;
+        left: 8%;
+        right: 8%;
+    }
+}
+@media (max-width: 750px) {
+    #carouselExampleIndicators {
+        display: none;
+    }
+    .otherFonTop {
+        display: block;
+    }
+    .otherFonTop__text {
+        position: absolute;
+        top: 39%;
+        left: 6%;
+        right: 6%;
+        text-align: center;
+        font-size: 30px;
+        border: 15px solid;
+        padding: 10% 12px;
+        text-transform: uppercase;
+    }
+}
+@media (max-width: 522px) {
+    .otherFonTop__text {
+        top: 27%;
+        font-size: 22px;
+    }
+}
+@media (max-width: 422px) {
+    .otherFonTop__text {
+        top: 20%
+    }
+}
+.sectionTyp {
+    margin: 30px 0;
+    padding: 0 15px
+}
+.decor-lien {
+    margin: 10px auto 10px;
+    width: 34%;
+    border-top: 2px solid #e2dad2;
+}
+@media (max-width: 470px) {
+    .decor-lien {
+        width: 65%;
+    }
+}
+
+.aboutUs__text {
+    padding: 12px 6px;
+    display: flex;
+    align-items: center;
+}
+.aboutUs__text p {
+    padding: 5px 0 0 12px;
+}
+.aboutUs__img {
+    display: flex;
+    justify-content: center;
+}
+.aboutUs__img img {
+    width: 100%;
+}
+@media (max-width: 993px) {
+    .aboutUs__img img {
+        width: 55%;
+    }
+}
+@media (max-width: 443px) {
+    .aboutUs__img img {
+        width: 270px;
+    }
+}
+
+
+.sectiom-top {
+    padding-top: 20px;
+    margin: 0 0 30px;
+    text-align: center;
+}
+.produkt__item {
+    display: flex;
+    flex-direction: column;
+    padding: 17px 0;
+    border: 1px solid #fff;
+
+}
+.iconItem {
+    width: 75px;
+    margin: 0 auto;
+}
+.produkt__item-text {
+    display: block;
+    padding: 12px 20px;
+}
+@media (max-width: 365px) {
+    .foto__butt-it {
+        margin: 4px 0;
+    }
+}
+.foto__img img {
+    width: 100%;
+}
+
+
+.offers__item {
+    width: 32%;
+    background-color: white;
+    color: #070707;
+}
+.offers__img {
+    width: 100%;
+}
+.offers__img img {
+    width: 100%;
+    border: 1px solid #070707;
+}
+.offers__list {
+    padding: 10px 0 0 14px;
+}
+.offers__list li {
+    padding-top: 2px;
+}
+@media (max-width: 770px) {
+    .offers__item {
+        width: 85%;
+        margin-top: 10px;
+    }
+}
+
+footer {
+    background-color: #212529;
+}
+.footer__logo {
+    width: 100%;
+}
+.footer__logo img {
+    width: 23%;
+}
+@media (max-width: 769px) {
+    .footer__logo img {
+        width: 90px;
+    }
+}
+
+.popupSlyle {
+    color: #212529;
+}
+.btnGo {
+    background-color: #0ab37f;
+    color: white;
+}
